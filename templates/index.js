@@ -2,7 +2,7 @@
 const program = require('commander');
 
 program
-    .command('hello')
-    .action(function () {
-        console.log('Hello, world!');
-    });
+.command('hello')
+.action(function () {
+    console.log('Hello, world!');
+});

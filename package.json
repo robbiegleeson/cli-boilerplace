@@ -1,0 +1,26 @@
+{
+  "name": "cli-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for creating a CLI node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "boilerplate",
+    "cli",
+    "node"
+  ],
+  "author": "Rob Gleeson <robbie.gleeson@gmail.com> (http://robbiegleeson.github.io/)",
+  "license": "ISC",
+  "bin": {
+    "cli": "./index.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "fs-path": "0.0.23",
+    "prompt": "^1.0.0"
+  }
+}

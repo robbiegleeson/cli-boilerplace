@@ -2,7 +2,12 @@
 const program = require('commander');
 
 program
-.command('hello')
-.action(function () {
-    console.log('Hello, world!');
-});
+    .command('hello')
+    .description('Welcome to your template!')
+    .action(function () {
+        console.log('Hello, world!');
+        process.exit(0);
+    });
+
+program
+    .parse(process.argv);
